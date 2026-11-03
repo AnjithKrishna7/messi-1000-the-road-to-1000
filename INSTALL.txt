@@ -1,0 +1,22 @@
+MESSI 1000 FASTAPI INTEGRATION
+
+1. Upload this ZIP into the root of your Codespace repository.
+2. In the terminal, run:
+
+   unzip -o messi1000-fastapi-integration.zip -d .
+   python -m pip install -r requirements.txt
+   python -m pytest -q
+
+3. If every test passes, commit the changes on feature/fastapi-forecast-api:
+
+   git add api.py API.md requirements.txt tests/test_api.py data/historical_matches.csv
+   git commit -m "feat(api): expose forecast engine to React frontend"
+   git push
+
+4. Start the API:
+
+   uvicorn api:app --reload --host 0.0.0.0 --port 8000
+
+5. Open the forwarded port 8000 /docs page to inspect the API.
+
+This package adds an API adapter and tests. It does not change app.py or src/predictor.py.
