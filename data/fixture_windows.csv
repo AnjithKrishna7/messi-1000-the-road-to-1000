@@ -1,0 +1,8 @@
+window_start,window_end,round,status,source_url,notes
+2026-11-18,2026-11-18,Wild Card,conditional,https://fe-en.mls-prd.deltatre.digital/news/audi-2026-mls-cup-playoffs-key-dates-schedule-information,League-wide date; Inter Miami match only if assigned to this round
+2026-11-20,2026-11-24,Round One Game 1,conditional,https://fe-en.mls-prd.deltatre.digital/news/audi-2026-mls-cup-playoffs-key-dates-schedule-information,Best-of-three series; exact team date depends on bracket
+2026-11-27,2026-11-28,Round One Game 2,conditional,https://fe-en.mls-prd.deltatre.digital/news/audi-2026-mls-cup-playoffs-key-dates-schedule-information,Best-of-three series; conditional on series
+2026-12-01,2026-12-02,Round One Game 3,conditional,https://fe-en.mls-prd.deltatre.digital/news/audi-2026-mls-cup-playoffs-key-dates-schedule-information,Only if required by series result
+2026-12-05,2026-12-06,Conference Semifinals,conditional,https://fe-en.mls-prd.deltatre.digital/news/audi-2026-mls-cup-playoffs-key-dates-schedule-information,Only if Inter Miami advances
+2026-12-11,2026-12-12,Conference Final,conditional,https://fe-en.mls-prd.deltatre.digital/news/audi-2026-mls-cup-playoffs-key-dates-schedule-information,Only if Inter Miami advances
+2026-12-18,2026-12-18,MLS Cup,conditional,https://fe-en.mls-prd.deltatre.digital/news/audi-2026-mls-cup-playoffs-key-dates-schedule-information,Only if Inter Miami reaches the final

@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Test / tooling output
+.pytest_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+
+# OS / editor files
+.DS_Store
+.vscode/
+.idea/
