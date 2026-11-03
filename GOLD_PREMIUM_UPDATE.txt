@@ -1,0 +1,16 @@
+MESSI 1000 — GOLD PREMIUM UPDATE
+
+This update changes only the React frontend. It does not touch api.py, src/predictor.py, requirements.txt, or the data files.
+
+Visual changes:
+- Replaces lime/green interface accents with restrained antique gold and champagne highlights.
+- Sets the main “One thousand. One career.” headline in the same Bodoni Moda editorial serif used by “THE GOAT.”
+- Replaces the abstract hero orb/logo with the supplied Messi awards-stage photo. The image blends into the true-black canvas with no visible card frame.
+- Keeps the stadium story banner, the Argentina and Inter Miami story panels, all dashboard sections, charts, fixture data, and API interactions.
+- Preserves responsive layout.
+
+Apply from the repository root:
+  unzip -o messi1000-gold-premium-update.zip -d .
+  cd frontend && npm run build
+
+The archive contains only frontend/source and public image files plus this note.

@@ -1,0 +1,37 @@
+MESSI 1000 — STORYTELLING / IMAGE UPDATE
+
+This is a targeted frontend update for the existing React + TypeScript application.
+It does not replace the Python API, the predictor, or the existing forecast data flow.
+
+FILES INCLUDED
+- frontend/src/App.tsx
+- frontend/src/App.css
+- frontend/src/index.css
+- frontend/public/images/stadium-atmosphere.webp (project-owner supplied image)
+- MEDIA_CREDITS.md
+
+APPLY IN CODESPACES
+1. Upload this ZIP to the root of the feature/react-dashboard branch.
+2. In Codespaces, from the repository root run:
+
+   git switch feature/react-dashboard
+   git pull origin feature/react-dashboard
+   unzip -o messi1000-storytelling-update.zip -d .
+
+3. Build the frontend:
+
+   cd frontend
+   npm run build
+
+4. Return to the browser on port 5173 and refresh.
+
+VISUAL CHANGES
+- Adds a full-width stadium storytelling banner using the supplied photograph.
+- Adds two photographic editorial panels: Argentina 2022 and Inter Miami 2025.
+- Adds the phrases “THE GOAT” and “THE MAGICIAN” as editorial headlines, not UI badges.
+- Adds visible image credits and licence references.
+- Adds a Bodoni Moda editorial display face for story headings while preserving the existing dashboard typography.
+- Changes panel/background tokens to neutral near-black.
+- Fixes the top forecast card label so it reflects the selected scenario.
+
+The two Wikimedia Commons photographs are loaded from Wikimedia's image host and require an internet connection in the visitor's browser. Their file pages and licence details are included in MEDIA_CREDITS.md.
